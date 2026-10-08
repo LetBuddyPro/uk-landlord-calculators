@@ -1,0 +1,17 @@
+{
+  "name": "uk-landlord-calculators",
+  "version": "0.1.0",
+  "description": "Small, dependency-free calculators for UK landlords: rent arrears against Ground 8, SDLT on an additional property, and rental yield.",
+  "license": "MIT",
+  "type": "module",
+  "main": "src/index.ts",
+  "files": ["src", "LICENSE", "README.md"],
+  "scripts": {
+    "test": "node --test test/calculators.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": ["landlord", "uk", "sdlt", "stamp-duty", "rent-arrears", "rental-yield", "section-8"],
+  "devDependencies": {
+    "typescript": "^5.6.0"
+  }
+}
